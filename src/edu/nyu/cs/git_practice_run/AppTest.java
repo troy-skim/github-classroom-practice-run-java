@@ -1,12 +1,14 @@
+// DO NOT TOUCH THIS FILE!
 package edu.nyu.cs.git_practice_run;
 
 // import junit 4 testing framework
 import org.junit.Test;
 import org.junit.Rule;
 import static org.junit.Assert.*;
-import org.junit.contrib.java.lang.system.SystemOutRule;
+import org.junit.contrib.java.lang.system.SystemOutRule; // system rules lib - useful for capturing system output
 
 public class AppTest {
+
     @Rule
     public final SystemOutRule systemOutRule = new SystemOutRule();
 
