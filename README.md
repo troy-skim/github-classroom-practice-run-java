@@ -46,13 +46,12 @@ Each Java project will have several important directories:
 
 If your project has no dependencies and has not been compiled, you may not see the `lib` or `bin` directories.
 
-You will notice that the `src` directory already contains several files.
+You will notice that this project already contains several files.
 
 - **README.md** - this file contains instructions written in a relatively easy-to-read formatting notation called Markdown.
 - **.gitignore** - a 'hidden' file that instructs the git software not to include certain files when sharing your code with others. This helps you only share the important files. Do not touch this file!
 - **src/edu/nyu/cs/git_practice_run/App.java** - you will write Java code in this file in order to complete the given assignment.
-- **src/edu/nyu/cs/git_practice_run/AppTest.java** - Test code that verifies that the code you have written in App.js works correctly. Do not touch this file!
-- **tests/** - a directory containing code that will help you determine whether you have completed the assignment correctly or not... more on this later. Do not touch this directory!
+- **src/edu/nyu/cs/git_practice_run/AppTest.java** - Code that will help us determine whether the code you have written in App.js works correctly. Do not touch this file!
 
 ## What to do now
 
