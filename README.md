@@ -38,7 +38,7 @@ Our code editor of choice is [Visual Studio Code](https://code.visualstudio.com)
 
 ### Folder structure
 
-Each Java project has several important directories:
+Each Java project will have several important directories:
 
 - `src` - contains the Java source code for the project (i.e. `.java` files)
 - `lib` - contains any dependencies (other libraries of code that the project depends upon to work)
@@ -78,7 +78,7 @@ Install the Java Extension Pack for Visual Studio Code:
 We will now download this code from GitHub.com into Visual Studio Code on your own computer...
 
 - Open Visual Studio Code
-- click the Source Control icon in the vertical Activity Bar on the left, and then click the button to "Clone Repository".
+- click the Source Control icon in the vertical activity on the left, and then click the button to "Clone Repository".
 - A text field will pop open at the top of Visual Studio Code for the web address of the repository to clone. Paste in the address of your personal repository on GitHub and hit Enter.
 - A Finder (Mac) / File Explorer (Windows) window will pop open asking you where you would like to save the files in this project. Select a folder/directory where you would like to copy this code, such as your Documents directory.
 - Visual Studio Code may ask you to "sign in" to GitHub... do so, if requested.
@@ -106,7 +106,7 @@ It's conventional to not store other people's code in your own GitHub repository
 
 In the sample assignment, we have included code that will tell you whether the code in the project is running correctly. Set up the testing framework in Visual Studio Code:
 
-- Click on the Test icon in Visual Studio Code's left Activity Bar.
+- Click on the Test icon in Visual Studio Code's left activity bar.
 - A Run Tests play button will appear towards the top-left of the window. Click it to run the tests.
 - If the tests pass, you will not notice anything happen... no error and no change is good! Everything works!
 - Sadly, the tests will fail because you have not completed the assignment yet!
@@ -147,7 +147,7 @@ We will verify that the test programs we have written now all pass. Failed tests
 
 We will now try to run the program - this time, we should see some output produced by our changes.
 
-- Switch to the Run view in Visual Studio Code's Activity Bar.
+- Switch to the Run view in Visual Studio Code's activity bar.
 - Click the Run icon (the green play button towards the top-left of the window).
 
 ### Verify the output is correct
@@ -161,3 +161,24 @@ Hello world!
 Hello world!
 Hello world!
 ```
+
+## How to submit this assignment
+
+Once you have written your assignment, formatted it nicely in Markdown, and saved it into the file named `README.md`, you are ready to submit it. Do this from within Visual Studio Code.
+
+1. Click on the `Source Control` icon in the left activity bar in Visual Studio Code.
+1. In the Source Control side bar, you will see a field named `Message` - type in a unique message about what you have done, e.g. "_Finished assignment!_" or whatever you want to write as a short note to yourself.
+1. Hover over the words `Source Control`. You will see a `...` icon appear - click it to see a menu. In that menu, click `Commit`->`Commit`. This logs the changes you've made to the Git project - remember Git is used to keep track of changes.
+1. Go to the same menu and click `Push` to submit your assignment - this uploads your updated files to the copy of your respository on GitHub.
+
+![Push changes to GitHub](./images/how_to_push_changes_to_github_from_vscode.png)
+
+That's it... you're done.
+
+## Double-check your submission
+
+Prove to yourself that you have correctly submitted by viewing your repository on the GitHub website - you should see your completed README.md file there.
+
+## Resubmit as many times as you want
+
+You can re-submit as many times as you want before the deadline. Just make changes to the files on your own computer and repeat the process outlined above to upload them to GitHub.
