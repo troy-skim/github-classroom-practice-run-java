@@ -149,3 +149,6 @@ replay_pid*
 
 ## Begin Visual Studio Code...
 .vscode
+
+# Do include dependency jar files #
+!lib/*.jar
