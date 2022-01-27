@@ -84,14 +84,6 @@ We will now download this code from GitHub.com into Visual Studio Code on your o
 - Once signed in, Visual Studio Code will download a copy (i.e. a clone) of all the files in your GitHub code repository to a sub-directory of the directory on your own computer that you selected.
 - Now open this directory up in Visual Studio Code to see the files.
 
-### Download dependencies
-
-It's conventional to not store other people's code in your own GitHub repository. For that reason you will manually install a few dependencies (other code that your code depends upon). Download each of these and place them into the `lib` directory of this project.
-
-- [junit v4.13.2.jar](https://search.maven.org/remotecontent?filepath=junit/junit/4.13.2/junit-4.13.2.jar)
-- [hamcrest-core-1.3.jar](https://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar)
-- [system-rules-1.19.0.jar](http://search.maven.org/remotecontent?filepath=com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar)
-
 ### Configure the project's Java settings
 
 - Click on the Explorer icon in Visual Studio Code's left tool bar (the icon that looks like two pieces of paper) - this shows the files in the project.
