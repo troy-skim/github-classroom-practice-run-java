@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.Rule;
 import static org.junit.Assert.*;
 import org.junit.contrib.java.lang.system.SystemOutRule; // system rules lib - useful for capturing system output
-import static org.mockito.Mockito.*; // for mocking, stubbing, and spying
+// import static org.mockito.Mockito.*; // for mocking, stubbing, and spying
 
 public class AppTest {
 
