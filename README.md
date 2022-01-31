@@ -41,8 +41,9 @@ Our code editor of choice is [Visual Studio Code](https://code.visualstudio.com)
 Each Java project will have several important directories:
 
 - `src` - contains the Java source code for the project (i.e. `.java` files)
-- `lib` - contains any dependencies (other libraries of code that the project depends upon to work)
+- `test` - contains code that will help us determine whether the code you have written behaves correctly. Do not touch this directory!
 - `bin` - contains the compiled code (i.e. `.class` files)
+- `lib` - contains any dependencies (other libraries of code that the project depends upon to work)
 
 If your project has no dependencies and has not been compiled, you may not see the `lib` or `bin` directories.
 
@@ -51,7 +52,6 @@ You will notice that this project already contains several files.
 - **README.md** - this file contains instructions written in a relatively easy-to-read formatting notation called Markdown.
 - **.gitignore** - a 'hidden' file that instructs the git software not to include certain files when sharing your code with others. This helps you only share the important files. Do not touch this file!
 - **src/edu/nyu/cs/git_practice_run/App.java** - you will write Java code in this file in order to complete the given assignment.
-- **src/edu/nyu/cs/git_practice_run/AppTest.java** - Code that will help us determine whether the code you have written in App.js works correctly. Do not touch this file!
 
 ## What to do now
 
