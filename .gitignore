@@ -148,7 +148,8 @@ hs_err_pid*
 replay_pid*
 
 ## Begin Visual Studio Code...
-.vscode
+.vscode/launch.json
 
 # Do include dependency jar files #
 !lib/*.jar
+
