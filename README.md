@@ -168,7 +168,7 @@ That's it... you're done.
 
 ## Double-check your submission
 
-Prove to yourself that you have correctly submitted by viewing your repository on the GitHub website - you should see your completed README.md file there.
+Prove to yourself that you have correctly submitted by viewing your repository on the GitHub website - you should see your completed files there.
 
 ## Resubmit as many times as you want
 
