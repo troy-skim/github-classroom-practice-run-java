@@ -25,7 +25,8 @@ public class AppTest {
         systemOutRule.enableLog(); // start capturing System.out
         // systemOutRule.clearLog();
         App.baz();
-        assertEquals("Hello world!\n", systemOutRule.getLog());
+        String actual = systemOutRule.getLogWithNormalizedLineSeparator();
+        assertEquals("Hello world!\n", actual);
     }
 
     @Test
@@ -38,7 +39,6 @@ public class AppTest {
         actual = App.foo("World", "hello!");
         expected = "World hello!";
         assertEquals(expected, actual);
-
     }
 
     @Test
@@ -48,12 +48,12 @@ public class AppTest {
         systemOutRule.enableLog();
         try {
             App.main(args);
-            assertEquals("Hello world!\nHello world!\nHello world!\n", systemOutRule.getLog());
+            String actual = systemOutRule.getLogWithNormalizedLineSeparator();
+            assertEquals("Hello world!\nHello world!\nHello world!\n", actual);
         }
         catch (Exception e) {
             assert false; // fail the test if any exception occurs
         }
-
     }
 
 }
