@@ -155,7 +155,7 @@ Hello world!
 
 ## How to submit this assignment
 
-Once you have written your assignment, formatted it nicely in Markdown, and saved it into the file named `README.md`, you are ready to submit it. Do this from within Visual Studio Code.
+Once you have completed your changes to this project, you are ready to submit it. Do this from within Visual Studio Code.
 
 1. Click on the `Source Control` icon in the left activity bar in Visual Studio Code.
 1. In the Source Control side bar, you will see a field named `Message` - type in a unique message about what you have done, e.g. "_Finished assignment!_" or whatever you want to write as a short note to yourself.
