@@ -129,10 +129,18 @@ public static void main(String[] args) {
 
 We will verify that the test programs we have written now all pass. Failed tests help identify problems in the code.
 
-- Switch to the Test view in Visual Studio Code
+- Open the relevant test file from within the `test` directory.
+- Switch to the Test view in Visual Studio Code by clicking the relevant icon in the activity bar.
 - Click the "Run All Tests" button - the green play button that appears if you hover the cursor over the top-left area of the window.
-- The test results will appear in the bottom status bar of Visual Studio Code - a check mark next to a number, if all tests pass; or possibly an X icon if some or all tests fail.
-- If the tests fail, it is likely that something is wrong in the code you modified - verify the code is correct and try again.
+- The status of each test will appear - a green checkbox for tests that passed and a red "X" for tests that failed.
+- If any tests fail, it is likely that something is wrong in the code you modified - verify the code is correct and try again.
+- Each test that fails will show a message with some indication of what went wrong - these messages may help you pinpoint the source of the error.
+
+If you have trouble running the tests from within Visual Studio Code, you can do them from within a Terminal window, assuming the project directory is the current working directory (change `TestClassName` to the relevant name fo the test class.)
+
+```bash
+java -cp "bin:lib/*" org.junit.runner.JUnitCore edu.nyu.cs.TestClassName
+```
 
 ### Run the program
 
