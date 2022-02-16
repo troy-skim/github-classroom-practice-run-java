@@ -95,7 +95,7 @@ We will now download this code from GitHub.com into Visual Studio Code on your o
 
 ### Set up the testing framework
 
-In the sample assignment, we have included code that will tell you whether the code in the project is running correctly. Set up the testing framework in Visual Studio Code:
+In the sample assignment, we have included code that will tell you whether the code in the project is running correctly. Set up the testing framework in Visual Studio Code. [A video tutorial](https://www.youtube.com/watch?v=Af6Ka0Bmflo) outlines the process and shows how to overcome most problems:
 
 - Click on the Test icon in Visual Studio Code's left activity bar.
 - A Run Tests play button will appear towards the top-left of the window. Click it to run the tests.
